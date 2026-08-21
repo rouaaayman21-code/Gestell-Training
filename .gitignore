@@ -5,3 +5,5 @@ Bitwise Operations/
 *.elf
 *.hex
 .vscode/
+*.workspace
+*.pdsprj
