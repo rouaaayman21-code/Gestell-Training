@@ -72,7 +72,7 @@ void DIO_voidTogglePinValue(uint8_t copy_u8Port, uint8_t copy_u8Pin)
     }
 }
 
-uint8_t DIO_u8GetPinValue(uint8_t copy_u8Port, uint8_t copy_u8Pin)
+uint8_t DIO_uint8GetPinValue(uint8_t copy_u8Port, uint8_t copy_u8Pin)
 {
     uint8_t local_uint8PinVal = DIO_PIN_LOW;
     if (copy_u8Pin <= DIO_PIN7)
